@@ -1,4 +1,6 @@
-
+# main.tf
+# Create AWS resources...
+#
 resource "aws_instance" "terraform-experiment-vm-001" {
   ami           = "ami-2757f631"
   instance_type = "t2.micro"
