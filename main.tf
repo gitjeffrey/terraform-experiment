@@ -1,5 +1,5 @@
 # main.tf
-# Create AWS resources...
+# Create AWS resources
 #
 resource "aws_instance" "terraform-experiment-vm-001" {
   ami           = "ami-2757f631"
@@ -7,7 +7,7 @@ resource "aws_instance" "terraform-experiment-vm-001" {
   provider      = "aws"
   tags {
     Name        = "io-autostructure-jeff-terraform-experiment-vm-001"
-    Environment = "Dev"
+    Environment = "HelloWorld"
   }
 }
 
@@ -18,7 +18,7 @@ resource "aws_instance" "io-autostructure-web" {
   instance_type = "t2.micro"
   provider      = "aws.staging"
   tags {
-    Name = "HelloWorld"
+    Name = "WebStaging"
   }
 }
 */

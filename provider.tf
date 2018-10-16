@@ -1,3 +1,6 @@
+# provider.tf
+# Connect to AWS
+#
 provider "aws" { }
 
 # default provider (no alias specified)
