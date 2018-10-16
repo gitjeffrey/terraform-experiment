@@ -9,6 +9,8 @@ provider "aws" {
 }
 
 # sample credential file...
+# it can be created via AWS CLI command: aws configure
+# it is referenced above in the 'profile' property
 
 $ cat ~/.aws/credentials
 [default]
